@@ -1,13 +1,13 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import { Providers } from "../provider";
 import { AppbarClient } from "../components/AppbarClient";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Quicksand({weight:"500", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Wallet",
+  title: "Paytm Wallet",
   description: "Simple wallet app",
 };
 
